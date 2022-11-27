@@ -4,5 +4,17 @@
         <name>AuthJWT</name>
     </assembly>
     <members>
+        <member name="T:AuthJWT.Migrations.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:AuthJWT.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AuthJWT.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AuthJWT.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
