@@ -16,5 +16,17 @@
         <member name="M:AuthJWT.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:AuthJWT.Migrations.Modifyuseraddrefreshtoken">
+            <inheritdoc />
+        </member>
+        <member name="M:AuthJWT.Migrations.Modifyuseraddrefreshtoken.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AuthJWT.Migrations.Modifyuseraddrefreshtoken.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AuthJWT.Migrations.Modifyuseraddrefreshtoken.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
