@@ -43,7 +43,7 @@ namespace AuthJWT.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpGet, Authorize]
+        [HttpGet, Authorize(Roles = "Admin")]
         public ActionResult<string> Hola()
         {
             return Ok("You are authorized");
