@@ -14,7 +14,7 @@ namespace AuthJWT.Controllers
         {
             _authService = authService;
         }
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<ActionResult<User>> RegisterUser(UserDto request)
         {
             var response = await _authService.RegisterUser(request);
